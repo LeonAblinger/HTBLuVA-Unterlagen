@@ -83,7 +83,7 @@
 - [74hc.lib](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/74hc.lib), different ICs of the 74HCxxx family.
 - [BD139.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/BD139.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
 - [BD140.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/BD140.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
-- [LM324.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM324.LIB), Operational amplifier, [Datasheet](https://www.ti.com/lit/ds/symlink/lm324.pdf)
-- [LM339.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM339.LIB), Differential comparator, [Datasheet](https://www.ti.com/lit/ds/symlink/lm339.pdf)
+- [LM324.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM324.LIB), Operational amplifier, <a href="https://www.ti.com/lit/ds/symlink/lm324.pdf" target="_blank">Datasheet</a>
+- [LM339.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM339.LIB), Differential comparator, <a href="https://www.ti.com/lit/ds/symlink/lm339.pdf" target="_blank">Datasheet</a>
 - [RG58.mod](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/RG58.mod), Coaxial wave cable.
-- [TL084.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/TL084.LIB), Operational amplifier, [Datasheet](https://www.ti.com/lit/ds/symlink/tl082h.pdf)
+- [TL084.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/TL084.LIB), Operational amplifier, <a href="https://www.ti.com/lit/ds/symlink/tl082h.pdf" target="_blank">Datasheet</a>
