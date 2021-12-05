@@ -4,3 +4,6 @@
 *.raw
 *.fft
 *.net
+
+# Ignore backup files
+*.backup
