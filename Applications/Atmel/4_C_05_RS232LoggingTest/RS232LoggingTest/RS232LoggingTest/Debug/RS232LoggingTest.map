@@ -1,0 +1,806 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+                              RS232.o (__udivmodsi4)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+                              D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o (exit)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+                              Logger.o (__do_clear_bss)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+                              HtlStddef.o (__umulhisi3)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(calloc.o)
+                              Ringbuffer.o (calloc)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+                              Ringbuffer.o (malloc)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(memset.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(calloc.o) (memset)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fdevopen.o)
+                              TestLogging.o (fdevopen)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(iob.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fdevopen.o) (__iob)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o)
+                              TestLogging.o (printf)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o) (vfprintf)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(strnlen_M.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o) (strnlen)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fputc.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o) (fputc)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(ultoa_invert.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o) (__ultoa_invert)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o) (__prologue_saves__)
+d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+                              d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+Logger              0x4               Logger.o
+__brkval            0x2               d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+__flp               0x2               d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+__iob               0x6               d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(iob.o)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ .bss           0x0000000000000000        0x0 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ .text          0x0000000000000000        0x0 HtlStddef.o
+ .data          0x0000000000000000        0x0 HtlStddef.o
+ .bss           0x0000000000000000        0x0 HtlStddef.o
+ .text.delayUs  0x0000000000000000       0x6e HtlStddef.o
+ .text          0x0000000000000000        0x0 Logger.o
+ .data          0x0000000000000000        0x0 Logger.o
+ .bss           0x0000000000000000        0x0 Logger.o
+ .text.LogInit  0x0000000000000000       0x10 Logger.o
+ .text.LogSetLogFunction
+                0x0000000000000000        0xe Logger.o
+ .text.LogEvent_
+                0x0000000000000000       0x60 Logger.o
+ .text.LogErrorFormatedExtended1
+                0x0000000000000000        0xe Logger.o
+ .debug_info    0x0000000000000000      0x562 Logger.o
+ .debug_abbrev  0x0000000000000000      0x13c Logger.o
+ .debug_loc     0x0000000000000000      0x1ac Logger.o
+ .debug_aranges
+                0x0000000000000000       0x38 Logger.o
+ .debug_ranges  0x0000000000000000       0x28 Logger.o
+ .debug_line    0x0000000000000000       0xd0 Logger.o
+ .debug_str     0x0000000000000000        0x0 Logger.o
+ .comment       0x0000000000000000       0x30 Logger.o
+ .debug_frame   0x0000000000000000       0x80 Logger.o
+ COMMON         0x0000000000000000        0x4 Logger.o
+ .text          0x0000000000000000        0x0 Ringbuffer.o
+ .data          0x0000000000000000        0x0 Ringbuffer.o
+ .bss           0x0000000000000000        0x0 Ringbuffer.o
+ .text          0x0000000000000000        0x0 RS232.o
+ .data          0x0000000000000000        0x0 RS232.o
+ .bss           0x0000000000000000        0x0 RS232.o
+ .text.RS232ReceiveData
+                0x0000000000000000       0x5c RS232.o
+ .text.RS232GetLatestError
+                0x0000000000000000        0x2 RS232.o
+ .text          0x0000000000000000        0x0 TestLogging.o
+ .data          0x0000000000000000        0x0 TestLogging.o
+ .bss           0x0000000000000000        0x0 TestLogging.o
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(calloc.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(calloc.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(calloc.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(memset.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(memset.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fdevopen.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fdevopen.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fdevopen.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(iob.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(iob.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(iob.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(strnlen_M.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(strnlen_M.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(strnlen_M.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fputc.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fputc.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fputc.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(ultoa_invert.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(ultoa_invert.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(ultoa_invert.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+ .text          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .data          0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .bss           0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000010000 xr
+data             0x0000000000800100 0x0000000000001000 rw !x
+eeprom           0x0000000000810000 0x0000000000000800 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+LOAD HtlStddef.o
+LOAD Logger.o
+LOAD Ringbuffer.o
+LOAD RS232.o
+LOAD TestLogging.o
+START GROUP
+LOAD d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libm.a
+END GROUP
+START GROUP
+LOAD d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a
+LOAD d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libm.a
+LOAD d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a
+LOAD D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const\libatmega644p.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000010000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000001000]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000800]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000       0xe2
+ *(.vectors)
+ .vectors       0x0000000000000000       0x7c D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.dinit)
+ .dinit         0x000000000000007c       0x11 data_init
+                0x000000000000008e                . = ALIGN (0x2)
+ *fill*         0x000000000000008d        0x1 
+                0x000000000000008e                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000008e        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000008e                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+                0x000000000000008e                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000008e                __ctors_start = .
+ *(.ctors)
+                0x000000000000008e                __ctors_end = .
+                0x000000000000008e                __dtors_start = .
+ *(.dtors)
+                0x000000000000008e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000008e        0x0 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+                0x000000000000008e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000008e        0xc D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000009a       0x3c d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_copy_data.o)
+                0x000000000000009a                __do_copy_data
+                0x00000000000000c8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000d6        0x8 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ *(.init9)
+                0x00000000000000de                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000000de        0x0 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+                0x00000000000000de                _exit
+                0x00000000000000de                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000000de        0x4 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000000e2                _etext = .
+
+.data           0x0000000000800100        0x0 load address 0x00000000000000e2
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.gnu.linkonce.d*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800100                . = ALIGN (0x2)
+                0x0000000000800100                _edata = .
+                [!provide]                        PROVIDE (__data_end, .)
+
+.bss            0x0000000000800100        0xa
+                [!provide]                        PROVIDE (__bss_start, .)
+ *(COMMON)
+ COMMON         0x0000000000800100        0x4 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+                0x0000000000800100                __brkval
+                0x0000000000800102                __flp
+ COMMON         0x0000000000800104        0x6 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(iob.o)
+                0x0000000000800104                __iob
+                [!provide]                        PROVIDE (__bss_end, .)
+                0x00000000000000e2                __data_load_start = LOADADDR (.data)
+                0x00000000000000e2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x000000000080010a        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x000000000080010a                _end = .
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x5b
+ *(.comment)
+ .comment       0x0000000000000000       0x2f HtlStddef.o
+                                         0x30 (size before relaxing)
+ .comment       0x000000000000002f       0x30 Ringbuffer.o
+ .comment       0x000000000000002f       0x30 RS232.o
+ .comment       0x000000000000002f       0x30 TestLogging.o
+ .comment       0x000000000000002f       0x2c d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(calloc.o)
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000005b       0x2d d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+ .comment       0x000000000000005b       0x2d d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fdevopen.o)
+ .comment       0x000000000000005b       0x2d d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(iob.o)
+ .comment       0x000000000000005b       0x2d d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o)
+ .comment       0x000000000000005b       0x2d d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o)
+ .comment       0x000000000000005b       0x2d d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(strnlen_M.o)
+ .comment       0x000000000000005b       0x2d d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fputc.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x100
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 HtlStddef.o
+ .debug_aranges
+                0x0000000000000028       0x38 Ringbuffer.o
+ .debug_aranges
+                0x0000000000000060       0x78 RS232.o
+ .debug_aranges
+                0x00000000000000d8       0x28 TestLogging.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x1e31
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x6cc D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ .debug_info    0x00000000000006cc      0x2d2 HtlStddef.o
+ .debug_info    0x000000000000099e      0x4b8 Ringbuffer.o
+ .debug_info    0x0000000000000e56      0xa2c RS232.o
+ .debug_info    0x0000000000001882      0x5af TestLogging.o
+
+.debug_abbrev   0x0000000000000000      0xbd0
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x66e D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ .debug_abbrev  0x000000000000066e       0x78 HtlStddef.o
+ .debug_abbrev  0x00000000000006e6      0x13c Ringbuffer.o
+ .debug_abbrev  0x0000000000000822      0x1e4 RS232.o
+ .debug_abbrev  0x0000000000000a06      0x1ca TestLogging.o
+
+.debug_line     0x0000000000000000      0x863
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x155 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ .debug_line    0x0000000000000155       0xb1 HtlStddef.o
+ .debug_line    0x0000000000000206      0x1b3 Ringbuffer.o
+ .debug_line    0x00000000000003b9      0x3b7 RS232.o
+ .debug_line    0x0000000000000770       0xf3 TestLogging.o
+
+.debug_frame    0x0000000000000000      0x408
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x6c HtlStddef.o
+ .debug_frame   0x000000000000006c       0x70 Ringbuffer.o
+ .debug_frame   0x00000000000000dc      0x2dc RS232.o
+ .debug_frame   0x00000000000003b8       0x50 TestLogging.o
+
+.debug_str      0x0000000000000000      0x2ef
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x252 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+ .debug_str     0x0000000000000252        0x0 HtlStddef.o
+ .debug_str     0x0000000000000252        0xc Ringbuffer.o
+ .debug_str     0x000000000000025e       0x6e RS232.o
+ .debug_str     0x00000000000002cc       0x23 TestLogging.o
+
+.debug_loc      0x0000000000000000      0xefe
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x154 HtlStddef.o
+ .debug_loc     0x0000000000000154      0x1cf Ringbuffer.o
+ .debug_loc     0x0000000000000323      0xac0 RS232.o
+ .debug_loc     0x0000000000000de3      0x11b TestLogging.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0xc0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 HtlStddef.o
+ .debug_ranges  0x0000000000000018       0x28 Ringbuffer.o
+ .debug_ranges  0x0000000000000040       0x68 RS232.o
+ .debug_ranges  0x00000000000000a8       0x18 TestLogging.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(RS232LoggingTest.elf elf32-avr)
+LOAD linker stubs
+LOAD data_init
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+
+.bss.RS232      0x0000000000800110        0x4
+ .bss.RS232     0x0000000000800110        0x4 RS232.o
+
+.progmemx.data  0x00000000000000e2       0x1c
+ .progmemx.data
+                0x00000000000000e2       0x1c TestLogging.o
+
+.text.avrlibc   0x00000000000000fe      0x448
+ .text.avrlibc  0x00000000000000fe      0x448 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(vfprintf_std.o)
+                0x00000000000000fe                vfprintf
+
+.text.avrlibc   0x0000000000000546      0x242
+ .text.avrlibc  0x0000000000000546      0x242 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+                0x0000000000000546                malloc
+                0x0000000000000676                free
+
+.text.RS232Create
+                0x0000000000000788       0xf8
+ .text.RS232Create
+                0x0000000000000788       0xf8 RS232.o
+                0x0000000000000788                RS232Create
+
+.text.avrlibc   0x0000000000000880       0xbc
+ .text.avrlibc  0x0000000000000880       0xbc d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(ultoa_invert.o)
+                0x0000000000000880                __ultoa_invert
+
+.text.avrlibc   0x000000000000093c       0x98
+ .text.avrlibc  0x000000000000093c       0x98 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fdevopen.o)
+                0x000000000000093c                fdevopen
+
+.text.__vector_21
+                0x00000000000009d4       0x80
+ .text.__vector_21
+                0x00000000000009d4       0x80 RS232.o
+                0x00000000000009d4                __vector_21
+
+.text.__vector_29
+                0x0000000000000a54       0x80
+ .text.__vector_29
+                0x0000000000000a54       0x80 RS232.o
+                0x0000000000000a54                __vector_29
+
+.text.avrlibc   0x0000000000000ad4       0x78
+ .text.avrlibc  0x0000000000000ad4       0x78 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(fputc.o)
+                0x0000000000000ad4                fputc
+
+.text.delayMs   0x0000000000000b4c       0x70
+ .text.delayMs  0x0000000000000b4c       0x70 HtlStddef.o
+                0x0000000000000b4c                delayMs
+
+.text.RS232SendData
+                0x0000000000000bbc       0x6a
+ .text.RS232SendData
+                0x0000000000000bbc       0x6a RS232.o
+                0x0000000000000bbc                RS232SendData
+
+.text.RS232InitCon0
+                0x0000000000000c26       0x5e
+ .text.RS232InitCon0
+                0x0000000000000c26       0x5e RS232.o
+
+.text.RS232InitCon1
+                0x0000000000000c84       0x5e
+ .text.RS232InitCon1
+                0x0000000000000c84       0x5e RS232.o
+
+.text.RS232CalculateBaudrateRegValue
+                0x0000000000000ce2       0x58
+ .text.RS232CalculateBaudrateRegValue
+                0x0000000000000ce2       0x58 RS232.o
+                0x0000000000000ce2                RS232CalculateBaudrateRegValue
+
+.text.__vector_20
+                0x0000000000000d3a       0x58
+ .text.__vector_20
+                0x0000000000000d3a       0x58 RS232.o
+                0x0000000000000d3a                __vector_20
+
+.text.__vector_28
+                0x0000000000000d92       0x58
+ .text.__vector_28
+                0x0000000000000d92       0x58 RS232.o
+                0x0000000000000d92                __vector_28
+
+.text.RS232Destroy
+                0x0000000000000dea       0x52
+ .text.RS232Destroy
+                0x0000000000000dea       0x52 RS232.o
+                0x0000000000000dea                RS232Destroy
+
+.text.RingBufferCreate
+                0x0000000000000e3c       0x4a
+ .text.RingBufferCreate
+                0x0000000000000e3c       0x4a Ringbuffer.o
+                0x0000000000000e3c                RingBufferCreate
+
+.text.libgcc.div
+                0x0000000000000e86       0x44
+ .text.libgcc.div
+                0x0000000000000e86       0x44 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_udivmodsi4.o)
+                0x0000000000000e86                __udivmodsi4
+
+.text.main      0x0000000000000eca       0x40
+ .text.main     0x0000000000000eca       0x40 TestLogging.o
+                0x0000000000000eca                main
+
+.text.avrlibc   0x0000000000000f0a       0x38
+ .text.avrlibc  0x0000000000000f0a       0x38 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(calloc.o)
+                0x0000000000000f0a                calloc
+
+.text.libgcc.prologue
+                0x0000000000000f42       0x38
+ .text.libgcc.prologue
+                0x0000000000000f42       0x38 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_prologue.o)
+                0x0000000000000f42                __prologue_saves__
+
+.text.avrlibc   0x0000000000000f7a       0x36
+ .text.avrlibc  0x0000000000000f7a       0x36 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(strnlen_M.o)
+                0x0000000000000f7a                strnlen
+
+.text.libgcc.prologue
+                0x0000000000000fb0       0x36
+ .text.libgcc.prologue
+                0x0000000000000fb0       0x36 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_epilogue.o)
+                0x0000000000000fb0                __epilogue_restores__
+
+.text.RingBufferRead
+                0x0000000000000fe6       0x2e
+ .text.RingBufferRead
+                0x0000000000000fe6       0x2e Ringbuffer.o
+                0x0000000000000fe6                RingBufferRead
+
+.text.avrlibc   0x0000000000001014       0x2e
+ .text.avrlibc  0x0000000000001014       0x2e d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(printf.o)
+                0x0000000000001014                printf
+
+.text.RingBufferWrite
+                0x0000000000001042       0x2a
+ .text.RingBufferWrite
+                0x0000000000001042       0x2a Ringbuffer.o
+                0x0000000000001042                RingBufferWrite
+
+.text.MyPut     0x000000000000106c       0x26
+ .text.MyPut    0x000000000000106c       0x26 TestLogging.o
+                0x000000000000106c                MyPut
+
+.text.RingBufferDestroy
+                0x0000000000001092       0x22
+ .text.RingBufferDestroy
+                0x0000000000001092       0x22 Ringbuffer.o
+                0x0000000000001092                RingBufferDestroy
+
+.text.libgcc.mul
+                0x00000000000010b4       0x1e
+ .text.libgcc.mul
+                0x00000000000010b4       0x1e d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const\libgcc.a(_umulhisi3.o)
+                0x00000000000010b4                __umulhisi3
+
+.text.avrlibc   0x00000000000010d2        0xe
+ .text.avrlibc  0x00000000000010d2        0xe d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(memset.o)
+                0x00000000000010d2                memset
+
+.text           0x00000000000010e0        0x4
+ .text          0x00000000000010e0        0x4 D:/Programme/AtmelStudio/7.0/Packs/atmel/ATmega_DFP/1.6.364/xc8/avr/lib/avr5/memx-const/crtatmega644p.o
+                0x00000000000010e0                __vector_22
+                0x00000000000010e0                __vector_1
+                0x00000000000010e0                __vector_24
+                0x00000000000010e0                __vector_12
+                0x00000000000010e0                __bad_interrupt
+                0x00000000000010e0                __vector_6
+                0x00000000000010e0                __vector_3
+                0x00000000000010e0                __vector_23
+                0x00000000000010e0                __vector_30
+                0x00000000000010e0                __vector_25
+                0x00000000000010e0                __vector_11
+                0x00000000000010e0                __vector_13
+                0x00000000000010e0                __vector_17
+                0x00000000000010e0                __vector_19
+                0x00000000000010e0                __vector_7
+                0x00000000000010e0                __vector_27
+                0x00000000000010e0                __vector_5
+                0x00000000000010e0                __vector_4
+                0x00000000000010e0                __vector_9
+                0x00000000000010e0                __vector_2
+                0x00000000000010e0                __vector_15
+                0x00000000000010e0                __vector_8
+                0x00000000000010e0                __vector_26
+                0x00000000000010e0                __vector_14
+                0x00000000000010e0                __vector_10
+                0x00000000000010e0                __vector_16
+                0x00000000000010e0                __vector_18
+
+.data           0x000000000080010a        0x6 load address 0x00000000000010e4
+ .data          0x000000000080010a        0x6 d:/program files/atmelstudio/mplabcompiler/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(malloc.o)
+                0x000000000080010a                __malloc_heap_end
+                0x000000000080010c                __malloc_heap_start
+                0x000000000080010e                __malloc_margin

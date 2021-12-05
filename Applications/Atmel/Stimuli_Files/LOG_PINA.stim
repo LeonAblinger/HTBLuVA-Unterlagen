@@ -1,0 +1,5 @@
+$log PINA
+$startlog output.log
+#10000
+$stoplog
+$break 

@@ -1,0 +1,355 @@
+
+SPI.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  0000028c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000238  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  0000028c  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  000002bc  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000070  00000000  00000000  000002fc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000008f7  00000000  00000000  0000036c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000801  00000000  00000000  00000c63  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000037b  00000000  00000000  00001464  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  000000dc  00000000  00000000  000017e0  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000421  00000000  00000000  000018bc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000159  00000000  00000000  00001cdd  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000040  00000000  00000000  00001e36  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__ctors_end>
+   4:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+   8:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+   c:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  10:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  14:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  18:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  1c:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  20:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  24:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  28:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  2c:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  30:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  34:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  38:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  3c:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  40:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  44:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  48:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  4c:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  50:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  54:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  58:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  5c:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  60:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  64:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  68:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  6c:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  70:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  74:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+  78:	0c 94 48 00 	jmp	0x90	; 0x90 <__bad_interrupt>
+
+0000007c <__ctors_end>:
+  7c:	11 24       	eor	r1, r1
+  7e:	1f be       	out	0x3f, r1	; 63
+  80:	cf ef       	ldi	r28, 0xFF	; 255
+  82:	d0 e1       	ldi	r29, 0x10	; 16
+  84:	de bf       	out	0x3e, r29	; 62
+  86:	cd bf       	out	0x3d, r28	; 61
+  88:	0e 94 e2 00 	call	0x1c4	; 0x1c4 <main>
+  8c:	0c 94 1a 01 	jmp	0x234	; 0x234 <_exit>
+
+00000090 <__bad_interrupt>:
+  90:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000094 <DelayMs>:
+
+#ifndef DEBUG
+#include <util/delay.h>
+#endif
+
+void DelayMs(unsigned int aDelayMs){
+  94:	cf 93       	push	r28
+  96:	df 93       	push	r29
+  98:	cd b7       	in	r28, 0x3d	; 61
+  9a:	de b7       	in	r29, 0x3e	; 62
+  9c:	28 97       	sbiw	r28, 0x08	; 8
+  9e:	0f b6       	in	r0, 0x3f	; 63
+  a0:	f8 94       	cli
+  a2:	de bf       	out	0x3e, r29	; 62
+  a4:	0f be       	out	0x3f, r0	; 63
+  a6:	cd bf       	out	0x3d, r28	; 61
+  a8:	98 87       	std	Y+8, r25	; 0x08
+  aa:	8f 83       	std	Y+7, r24	; 0x07
+	#ifdef DEBUG
+	volatile unsigned long counter;
+	volatile unsigned int help;
+	for(counter = 0; counter < aDelayMs * 150UL; counter++) help++;
+  ac:	19 82       	std	Y+1, r1	; 0x01
+  ae:	1a 82       	std	Y+2, r1	; 0x02
+  b0:	1b 82       	std	Y+3, r1	; 0x03
+  b2:	1c 82       	std	Y+4, r1	; 0x04
+  b4:	10 c0       	rjmp	.+32     	; 0xd6 <DelayMs+0x42>
+  b6:	8d 81       	ldd	r24, Y+5	; 0x05
+  b8:	9e 81       	ldd	r25, Y+6	; 0x06
+  ba:	01 96       	adiw	r24, 0x01	; 1
+  bc:	9e 83       	std	Y+6, r25	; 0x06
+  be:	8d 83       	std	Y+5, r24	; 0x05
+  c0:	89 81       	ldd	r24, Y+1	; 0x01
+  c2:	9a 81       	ldd	r25, Y+2	; 0x02
+  c4:	ab 81       	ldd	r26, Y+3	; 0x03
+  c6:	bc 81       	ldd	r27, Y+4	; 0x04
+  c8:	01 96       	adiw	r24, 0x01	; 1
+  ca:	a1 1d       	adc	r26, r1
+  cc:	b1 1d       	adc	r27, r1
+  ce:	89 83       	std	Y+1, r24	; 0x01
+  d0:	9a 83       	std	Y+2, r25	; 0x02
+  d2:	ab 83       	std	Y+3, r26	; 0x03
+  d4:	bc 83       	std	Y+4, r27	; 0x04
+  d6:	8f 81       	ldd	r24, Y+7	; 0x07
+  d8:	98 85       	ldd	r25, Y+8	; 0x08
+  da:	9c 01       	movw	r18, r24
+  dc:	40 e0       	ldi	r20, 0x00	; 0
+  de:	50 e0       	ldi	r21, 0x00	; 0
+  e0:	86 e9       	ldi	r24, 0x96	; 150
+  e2:	90 e0       	ldi	r25, 0x00	; 0
+  e4:	dc 01       	movw	r26, r24
+  e6:	0e 94 00 01 	call	0x200	; 0x200 <__muluhisi3>
+  ea:	9b 01       	movw	r18, r22
+  ec:	ac 01       	movw	r20, r24
+  ee:	89 81       	ldd	r24, Y+1	; 0x01
+  f0:	9a 81       	ldd	r25, Y+2	; 0x02
+  f2:	ab 81       	ldd	r26, Y+3	; 0x03
+  f4:	bc 81       	ldd	r27, Y+4	; 0x04
+  f6:	82 17       	cp	r24, r18
+  f8:	93 07       	cpc	r25, r19
+  fa:	a4 07       	cpc	r26, r20
+  fc:	b5 07       	cpc	r27, r21
+  fe:	d8 f2       	brcs	.-74     	; 0xb6 <DelayMs+0x22>
+	#else
+	_delay_ms(aDelayMs);
+	#endif
+}
+ 100:	00 00       	nop
+ 102:	28 96       	adiw	r28, 0x08	; 8
+ 104:	0f b6       	in	r0, 0x3f	; 63
+ 106:	f8 94       	cli
+ 108:	de bf       	out	0x3e, r29	; 62
+ 10a:	0f be       	out	0x3f, r0	; 63
+ 10c:	cd bf       	out	0x3d, r28	; 61
+ 10e:	df 91       	pop	r29
+ 110:	cf 91       	pop	r28
+ 112:	08 95       	ret
+
+00000114 <SPI_Init>:
+
+#include "SPI.h"
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+void SPI_Init(void) {
+ 114:	cf 93       	push	r28
+ 116:	df 93       	push	r29
+ 118:	cd b7       	in	r28, 0x3d	; 61
+ 11a:	de b7       	in	r29, 0x3e	; 62
+	DDRSPI |= ( 1 << MOSI ) | ( 1 << SCK ) | ( 1 << nSS );
+ 11c:	84 e2       	ldi	r24, 0x24	; 36
+ 11e:	90 e0       	ldi	r25, 0x00	; 0
+ 120:	24 e2       	ldi	r18, 0x24	; 36
+ 122:	30 e0       	ldi	r19, 0x00	; 0
+ 124:	f9 01       	movw	r30, r18
+ 126:	20 81       	ld	r18, Z
+ 128:	20 6b       	ori	r18, 0xB0	; 176
+ 12a:	fc 01       	movw	r30, r24
+ 12c:	20 83       	st	Z, r18
+	DDRSPI &= ~( 1 << MISO );
+ 12e:	84 e2       	ldi	r24, 0x24	; 36
+ 130:	90 e0       	ldi	r25, 0x00	; 0
+ 132:	24 e2       	ldi	r18, 0x24	; 36
+ 134:	30 e0       	ldi	r19, 0x00	; 0
+ 136:	f9 01       	movw	r30, r18
+ 138:	20 81       	ld	r18, Z
+ 13a:	2f 7b       	andi	r18, 0xBF	; 191
+ 13c:	fc 01       	movw	r30, r24
+ 13e:	20 83       	st	Z, r18
+	SPCR |= ( 1 << SPE ) | ( 1 << MSTR ) | ( 1 << SPR0 );
+ 140:	8c e4       	ldi	r24, 0x4C	; 76
+ 142:	90 e0       	ldi	r25, 0x00	; 0
+ 144:	2c e4       	ldi	r18, 0x4C	; 76
+ 146:	30 e0       	ldi	r19, 0x00	; 0
+ 148:	f9 01       	movw	r30, r18
+ 14a:	20 81       	ld	r18, Z
+ 14c:	21 65       	ori	r18, 0x51	; 81
+ 14e:	fc 01       	movw	r30, r24
+ 150:	20 83       	st	Z, r18
+	
+	PORTSPI |= ( 1 << nSS );
+ 152:	85 e2       	ldi	r24, 0x25	; 37
+ 154:	90 e0       	ldi	r25, 0x00	; 0
+ 156:	25 e2       	ldi	r18, 0x25	; 37
+ 158:	30 e0       	ldi	r19, 0x00	; 0
+ 15a:	f9 01       	movw	r30, r18
+ 15c:	20 81       	ld	r18, Z
+ 15e:	20 61       	ori	r18, 0x10	; 16
+ 160:	fc 01       	movw	r30, r24
+ 162:	20 83       	st	Z, r18
+}
+ 164:	00 00       	nop
+ 166:	df 91       	pop	r29
+ 168:	cf 91       	pop	r28
+ 16a:	08 95       	ret
+
+0000016c <SPI_Transmit>:
+
+unsigned char SPI_Transmit(const unsigned char data) {
+ 16c:	cf 93       	push	r28
+ 16e:	df 93       	push	r29
+ 170:	1f 92       	push	r1
+ 172:	cd b7       	in	r28, 0x3d	; 61
+ 174:	de b7       	in	r29, 0x3e	; 62
+ 176:	89 83       	std	Y+1, r24	; 0x01
+	PORTSPI &= ~( 1 << nSS );
+ 178:	85 e2       	ldi	r24, 0x25	; 37
+ 17a:	90 e0       	ldi	r25, 0x00	; 0
+ 17c:	25 e2       	ldi	r18, 0x25	; 37
+ 17e:	30 e0       	ldi	r19, 0x00	; 0
+ 180:	f9 01       	movw	r30, r18
+ 182:	20 81       	ld	r18, Z
+ 184:	2f 7e       	andi	r18, 0xEF	; 239
+ 186:	fc 01       	movw	r30, r24
+ 188:	20 83       	st	Z, r18
+	SPDR = data;
+ 18a:	8e e4       	ldi	r24, 0x4E	; 78
+ 18c:	90 e0       	ldi	r25, 0x00	; 0
+ 18e:	29 81       	ldd	r18, Y+1	; 0x01
+ 190:	fc 01       	movw	r30, r24
+ 192:	20 83       	st	Z, r18
+	while(!(SPSR & ( 1 << SPIF )));
+ 194:	00 00       	nop
+ 196:	8d e4       	ldi	r24, 0x4D	; 77
+ 198:	90 e0       	ldi	r25, 0x00	; 0
+ 19a:	fc 01       	movw	r30, r24
+ 19c:	80 81       	ld	r24, Z
+ 19e:	88 23       	and	r24, r24
+ 1a0:	d4 f7       	brge	.-12     	; 0x196 <SPI_Transmit+0x2a>
+	PORTSPI |= ( 1 << nSS );
+ 1a2:	85 e2       	ldi	r24, 0x25	; 37
+ 1a4:	90 e0       	ldi	r25, 0x00	; 0
+ 1a6:	25 e2       	ldi	r18, 0x25	; 37
+ 1a8:	30 e0       	ldi	r19, 0x00	; 0
+ 1aa:	f9 01       	movw	r30, r18
+ 1ac:	20 81       	ld	r18, Z
+ 1ae:	20 61       	ori	r18, 0x10	; 16
+ 1b0:	fc 01       	movw	r30, r24
+ 1b2:	20 83       	st	Z, r18
+
+	return SPDR;
+ 1b4:	8e e4       	ldi	r24, 0x4E	; 78
+ 1b6:	90 e0       	ldi	r25, 0x00	; 0
+ 1b8:	fc 01       	movw	r30, r24
+ 1ba:	80 81       	ld	r24, Z
+ 1bc:	0f 90       	pop	r0
+ 1be:	df 91       	pop	r29
+ 1c0:	cf 91       	pop	r28
+ 1c2:	08 95       	ret
+
+000001c4 <main>:
+********************************************************************************************************************/
+
+#define F_CPU 16000000UL
+#include "HtlStddef.h"
+
+int main(void) {
+ 1c4:	cf 93       	push	r28
+ 1c6:	df 93       	push	r29
+ 1c8:	00 d0       	rcall	.+0      	; 0x1ca <main+0x6>
+ 1ca:	cd b7       	in	r28, 0x3d	; 61
+ 1cc:	de b7       	in	r29, 0x3e	; 62
+	SPI_Init();
+ 1ce:	0e 94 8a 00 	call	0x114	; 0x114 <SPI_Init>
+	unsigned char rvar;
+	
+	while(1) {
+		for(unsigned char i = 0x00; i < 0xFF; i++) {
+ 1d2:	19 82       	std	Y+1, r1	; 0x01
+ 1d4:	0d c0       	rjmp	.+26     	; 0x1f0 <main+0x2c>
+			rvar = SPI_Transmit(i);
+ 1d6:	89 81       	ldd	r24, Y+1	; 0x01
+ 1d8:	88 2f       	mov	r24, r24
+ 1da:	90 e0       	ldi	r25, 0x00	; 0
+ 1dc:	0e 94 b6 00 	call	0x16c	; 0x16c <SPI_Transmit>
+ 1e0:	8a 83       	std	Y+2, r24	; 0x02
+			DelayMs(2000);
+ 1e2:	80 ed       	ldi	r24, 0xD0	; 208
+ 1e4:	97 e0       	ldi	r25, 0x07	; 7
+ 1e6:	0e 94 4a 00 	call	0x94	; 0x94 <DelayMs>
+int main(void) {
+	SPI_Init();
+	unsigned char rvar;
+	
+	while(1) {
+		for(unsigned char i = 0x00; i < 0xFF; i++) {
+ 1ea:	89 81       	ldd	r24, Y+1	; 0x01
+ 1ec:	8f 5f       	subi	r24, 0xFF	; 255
+ 1ee:	89 83       	std	Y+1, r24	; 0x01
+ 1f0:	89 81       	ldd	r24, Y+1	; 0x01
+ 1f2:	8f 3f       	cpi	r24, 0xFF	; 255
+ 1f4:	81 f7       	brne	.-32     	; 0x1d6 <main+0x12>
+			rvar = SPI_Transmit(i);
+			DelayMs(2000);
+		}
+		DelayMs(5000);
+ 1f6:	88 e8       	ldi	r24, 0x88	; 136
+ 1f8:	93 e1       	ldi	r25, 0x13	; 19
+ 1fa:	0e 94 4a 00 	call	0x94	; 0x94 <DelayMs>
+	}
+ 1fe:	e9 cf       	rjmp	.-46     	; 0x1d2 <main+0xe>
+
+00000200 <__muluhisi3>:
+ 200:	0e 94 0b 01 	call	0x216	; 0x216 <__umulhisi3>
+ 204:	a5 9f       	mul	r26, r21
+ 206:	90 0d       	add	r25, r0
+ 208:	b4 9f       	mul	r27, r20
+ 20a:	90 0d       	add	r25, r0
+ 20c:	a4 9f       	mul	r26, r20
+ 20e:	80 0d       	add	r24, r0
+ 210:	91 1d       	adc	r25, r1
+ 212:	11 24       	eor	r1, r1
+ 214:	08 95       	ret
+
+00000216 <__umulhisi3>:
+ 216:	a2 9f       	mul	r26, r18
+ 218:	b0 01       	movw	r22, r0
+ 21a:	b3 9f       	mul	r27, r19
+ 21c:	c0 01       	movw	r24, r0
+ 21e:	a3 9f       	mul	r26, r19
+ 220:	70 0d       	add	r23, r0
+ 222:	81 1d       	adc	r24, r1
+ 224:	11 24       	eor	r1, r1
+ 226:	91 1d       	adc	r25, r1
+ 228:	b2 9f       	mul	r27, r18
+ 22a:	70 0d       	add	r23, r0
+ 22c:	81 1d       	adc	r24, r1
+ 22e:	11 24       	eor	r1, r1
+ 230:	91 1d       	adc	r25, r1
+ 232:	08 95       	ret
+
+00000234 <_exit>:
+ 234:	f8 94       	cli
+
+00000236 <__stop_program>:
+ 236:	ff cf       	rjmp	.-2      	; 0x236 <__stop_program>
