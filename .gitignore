@@ -1,9 +1,14 @@
-# Ignore LTSpice generated files
+# LTSpice generated files
 *.log
 *.plt
 *.raw
 *.fft
 *.net
 
-# Ignore backup files
+# Backup files
 *.backup
+
+# Atmel studio files and build directories
+*/[Dd]ebug/
+*/[Rr]elease/
+*.atsuo
