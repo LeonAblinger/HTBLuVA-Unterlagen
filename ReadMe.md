@@ -1,6 +1,6 @@
 ## HTBLuVA Salzburg-Itzling Unterlagen
 ### Applications
-#### Atmel
+#### Atmel/Microchip Studio
 - [3_01_IOTest](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/Atmel/3_01_IOTest)
 - [3_02_ADD4Bit](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/Atmel/3_02_ADD4Bit)
 - [3_03_CommandTest](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/Atmel/3_03_CommandTest)
@@ -19,16 +19,27 @@
 - [4_VS_C_01_RS232](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/Atmel/4_VS_C_01_RS232)
 
 #### MATLAB
-- [01_Sampling](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/01_Sampling)
-- [02_Tiefpass](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/02_Tiefpass)
+- [01_Sampling](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/01_Sampling), Simple sampling application.
+- [02_Tiefpass](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/02_Tiefpass), Simple low pass filter.
 - [03_Faltung](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/03_Faltung)
 - [04_FirImpulsantwort](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/04_FirImpulsantwort)
-- [05_TiefpassIdeal](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/05_TiefpassIdeal)
+- [05_TiefpassIdeal](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/05_TiefpassIdeal), Ideal low pass filter.
 
 ***
 
 ### Laborprotokolle
-
+- [Protokoll_ADC_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_ADC_AblL.pdf), Analog-Digital-Converter
+- [Protokoll_AnalogeModulation_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_AnalogeModulation_AblL.pdf), Analog modulation
+- [Protokoll_Colpitts-Oszillator_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_Colpitts-Oszillator_AblL.pdf), Colpitts oscillator
+- [Protokoll_DAC_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_DAC_AblL.pdf), Digital-Analog-Converter
+- [Protokoll_FrequenzModulation_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_FrequenzModulation_AblL.pdf), Frequency modulation
+- [Protokoll_LDO2_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_LDO2_AblL.pdf), Linear-drop-out-voltage regulator II
+- [Protokoll_LDO_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_LDO_AblL.pdf), Linear-drop-out-voltage regulator
+- [Protokoll_LWL1_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_LWL1_AblL.pdf), Optical fiber wire
+- [Protokoll_Pulsamplitudenmodulation_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_Pulsamplitudenmodulation_AblL.pdf), Pulse amplitude modulation
+- [Protokoll_Step-Down_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_Step-Down_AblL.pdf), Step-down ("Buck") converter
+- [Protokoll_VLAN_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_VLAN_AblL.pdf), Virtual LAN with Raspberry Pi network
+- [Protokoll_Wienbrücke_AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Laborprotokolle/Protokoll_Wienbrücke_AblL.pdf), Wien-bridge
 
 ***
 
@@ -47,3 +58,32 @@
 ***
 
 ### Simulationen
+- [ADC.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/ADC.asc)
+- [ADC_NAND.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/ADC_NAND.asc)
+- [Analoge-Modulation_mit_Filter.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Analoge-Modulation_mit_Filter.asc)
+- [Analoge-Modulation_ohne_Filter.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Analoge-Modulation_ohne_Filter.asc)
+- [Analoge-Modulation_Überlagerung.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Analoge-Modulation_Überlagerung.asc)
+- [Astabiler-Multivibrator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Astabiler-Multivibrator.asc)
+- [Colpitts-Oszillator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Colpitts-Oszillator.asc)
+- [DAC-4Bit-gew-Wid.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/DAC-4Bit-gew-Wid.asc)
+- [Gegentaktendstufe.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Gegentaktendstufe.asc)
+- [Leitungstheorie-Abgeschlossene-Leitung.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Leitungstheorie-Abgeschlossene-Leitung.asc)
+- [Leitungstheorie-Kurzschluss.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Leitungstheorie-Kurzschluss.asc)
+- [Leitungstheorie-Leerlauf.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Leitungstheorie-Leerlauf.asc)
+- [Leitungstheorie-RG58.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Leitungstheorie-RG58.asc)
+- [Low-Dropout-Linear-Regulator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Low-Dropout-Linear-Regulator.asc)
+- [Phasenschieber-Oszillator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Phasenschieber-Oszillator.asc)
+- [Step-Down-Converter.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Step-Down-Converter.asc)
+- [Transistor_Schalter_mit_ind_Last.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Transistor_Schalter_mit_ind_Last.asc)
+- [Transistor_Schalter_mit_kap_Last.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Transistor_Schalter_mit_kap_Last.asc)
+- [Transistor_als_Schalter_BUCK.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Transistor_als_Schalter_BUCK.asc)
+- [Wien-Robinson-Oszillator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Wien-Robinson-Oszillator.asc)
+
+### Libraries
+- [74hc.lib](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/74hc.lib), different ICs of the 74HCxxx family.
+- [BD139.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/BD139.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
+- [BD140.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/BD140.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
+- [LM324.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM324.LIB), Operational amplifier, [Datasheet](https://www.ti.com/lit/ds/symlink/lm324.pdf)
+- [LM339.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM339.LIB), Differential comparator, [Datasheet](https://www.ti.com/lit/ds/symlink/lm339.pdf)
+- [RG58.mod](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/RG58.mod), Coaxial wave cable.
+- [TL084.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/TL084.LIB), Operational amplifier, [Datasheet](https://www.ti.com/lit/ds/symlink/tl082h.pdf)
