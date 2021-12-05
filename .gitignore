@@ -1,0 +1,5 @@
+# Ignore LTSpice generated files
+*.log
+*.plt
+*.raw
+*.fft
