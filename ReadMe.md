@@ -73,6 +73,7 @@
 - [Leitungstheorie-RG58.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Leitungstheorie-RG58.asc)
 - [Low-Dropout-Linear-Regulator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Low-Dropout-Linear-Regulator.asc)
 - [Phasenschieber-Oszillator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Phasenschieber-Oszillator.asc)
+- [PLL.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/PLL.asc)
 - [Step-Down-Converter.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Step-Down-Converter.asc)
 - [Transistor_Schalter_mit_ind_Last.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Transistor_Schalter_mit_ind_Last.asc)
 - [Transistor_Schalter_mit_kap_Last.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Transistor_Schalter_mit_kap_Last.asc)
@@ -80,10 +81,11 @@
 - [Wien-Robinson-Oszillator.asc](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/Wien-Robinson-Oszillator.asc)
 
 ### Libraries
-- [74hc.lib](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/74hc.lib), different ICs of the 74HCxxx family.
-- [BD139.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/BD139.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
-- [BD140.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/BD140.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
-- [LM324.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM324.LIB), Operational amplifier, <a href="https://www.ti.com/lit/ds/symlink/lm324.pdf" target="_blank">Datasheet</a>
-- [LM339.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/LM339.LIB), Differential comparator, <a href="https://www.ti.com/lit/ds/symlink/lm339.pdf" target="_blank">Datasheet</a>
-- [RG58.mod](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/RG58.mod), Coaxial wave cable.
-- [TL084.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Applications/MATLAB/TL084.LIB), Operational amplifier, <a href="https://www.ti.com/lit/ds/symlink/tl082h.pdf" target="_blank">Datasheet</a>
+- [74hc.lib](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/74hc.lib), different ICs of the 74HCxxx family.
+- [74hct.lib](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/74hct.lib), different ICs of the 74HCTxxx family.
+- [BD139.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/BD139.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
+- [BD140.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/BD140.LIB), Complementary low voltage transistor, [Datasheet](https://www.st.com/resource/en/datasheet/cd00001225.pdf)
+- [LM324.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/LM324.LIB), Operational amplifier, <a href="https://www.ti.com/lit/ds/symlink/lm324.pdf" target="_blank">Datasheet</a>
+- [LM339.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/LM339.LIB), Differential comparator, <a href="https://www.ti.com/lit/ds/symlink/lm339.pdf" target="_blank">Datasheet</a>
+- [RG58.mod](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/RG58.mod), Coaxial wave cable.
+- [TL084.LIB](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Simulationen/lib/TL084.LIB), Operational amplifier, <a href="https://www.ti.com/lit/ds/symlink/tl082h.pdf" target="_blank">Datasheet</a>
