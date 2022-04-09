@@ -45,17 +45,22 @@
 
 ### Mitschrift
 - [AM-4-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/AM-4-AblL.pdf), Angewandte Mathematik, 4. Klasse
+- [AM-5-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/AM-5-AblL.pdf), Angewandte Mathematik, 5. Klasse
 - [Chemie-3-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/Chemie-3-AblL.pdf), Chemie, 3. Klasse
 - [Chemie-4-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/Chemie-4-AblL.pdf), Chemie, 4. Klasse
+- [DIC-5-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/DIC-5-AblL.pdf), DIC, 5. Klasse
 - [EDT-1-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/EDT-1-AblL.pdf), EDT, 1. Klasse
 - [GET-1-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/GET-1-AblL.pdf), GET, 1. Klasse
 - [GET-2-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/GET-2-AblL.pdf), GET, 2. Klasse
 - [HWE-3-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/HWE-3-AblL.pdf), HWE, 3. Klasse
 - [HWE-4-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/HWE-4-AblL.pdf), HWE, 4. Klasse
+- [HWE-5-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/HWE-5-AblL.pdf), HWE, 5. Klasse
 - [KSN-3-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/KSN-3-AblL.pdf), KSN, 3. Klasse
 - [KSN-4-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/KSN-4-AblL.pdf), KSN, 4. Klasse
+- [KSN-5-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/KSN-5-AblL.pdf), KSN, 5. Klasse
 - [MTRS-3-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/MTRS-3-AblL.pdf), MTRS, 3. Klasse
 - [MTRS-4-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/MTRS-4-AblL.pdf), MTRS, 4. Klasse
+- [MTRS-5-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/MTRS-5-AblL.pdf), MTRS, 5. Klasse
 - [Physik-4-AblL.pdf](https://github.com/LeonAblinger/HTBLuVA-Unterlagen/tree/main/Mitschrift/Physik-4-AblL.pdf), Physik, 4. Klasse
 
 ***
